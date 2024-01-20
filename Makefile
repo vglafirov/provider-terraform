@@ -32,7 +32,7 @@ UPTEST_VERSION = v0.5.0
 -include build/makelib/k8s_tools.mk
 
 # Setup Images
-REGISTRY_ORGS ?= xpkg.upbound.io/upbound
+REGISTRY_ORGS ?= vglafirov 
 IMAGES = provider-terraform
 -include build/makelib/imagelight.mk
 
